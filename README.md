@@ -1,12 +1,8 @@
-# terraform-setup-eventhub-accountstorage
-
-The repository for practice purpose
-
-# Requirements
+# The repository for practice purpose
+## Requirements
 -  Setup and configure Azure CLI: https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/azure-get-started
 -  Setup Terraform CLI: https://learn.hashicorp.com/tutorials/terraform/install-cli
-
-# Usage
+## Usage
 ```bash
 $ terraform init
 $ terraform validate
@@ -14,34 +10,31 @@ $ terraform fmt
 $ terraform plan
 $ terraform apply
 ```
-
-
-
-# Outputs
-
+## Outputs
 - Create eventhub, account storage and container
 - Eventhub capture the message and store to account storage
---------------------------
-# Terraform window setup
 
+
+--------------------------
+## Terraform Install CLI
 1. Install Terraform: use command line to run  
     ``` 
     choco install terraform
     ```
 2. Download directly and install: https://www.terraform.io/downloads.htm
 
-### A . Azure Install CLI
+## Azure Install CLI
 1. Install `Azure CLI` by run the command via `Powershell`:
     ``` 
     Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'; rm .\AzureCLI.msi 
     ```
 2. Download and install directly: https://aka.ms/installazurecliwindows
-### B. Azure Setup
-1. Login to Azure
+##  Azure Setup
+- Login to Azure
     ```
     az login
     ```
-    After that you will see
+-  After that you will see
     ![alt text](resource/login_success.png "Title")
 
 | Command | Description  |
