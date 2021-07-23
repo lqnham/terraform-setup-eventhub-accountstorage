@@ -2,6 +2,36 @@
 
 The repository for practice purpose
 
+# Requirements
+-  Setup and configure Azure CLI: https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/azure-get-started
+-  Setup Terraform CLI: https://learn.hashicorp.com/tutorials/terraform/install-cli
+
+
+
+# Usage
+| Command | Description  |
+|---|---|
+| terraform init     | Automatically download and install community or partner modules from the registry  |
+| terraform validate | Check the file wheather valid or not  |
+| terraform plan     | Preview the changes Terraform will make to match your configuration.  |
+| terraform fmt      | Reformat your configuration in the standard style and return the file name  |
+| terraform apply    | apply         Create or update infrastructure  |
+| terraform destroy  |         Destroy previously-created infrastructure |
+
+
+
+# Outputs
+
+## Azure: 
+- Create eventhub, account storage and container
+- Eventhub capture the message and store to account storage
+
+## AWS
+- Create EC2, S3, and interagete with cloudformation.
+
+
+
+--------------------------
 # Terraform window setup
 
 1. Install Terraform: use command line to run  
@@ -24,24 +54,5 @@ The repository for practice purpose
     After that you will see
     ![alt text](resource/login_success.png "Title")
 
-
-
-
-## AWS
-
-
-# Terraform MACOS setup
-
-# Execute terraform
-
-## 1. Basic command line
-| Command | Description  |
-|---|---|
-| terraform init     | Automatically download and install community or partner modules from the registry  |
-| terraform validate | Check the file wheather valid or not  |
-| terraform plan     | Preview the changes Terraform will make to match your configuration.  |
-| terraform fmt      | Reformat your configuration in the standard style and return the file name  |
-| terraform apply    | apply         Create or update infrastructure  |
-| terraform destroy  |         Destroy previously-created infrastructure |
-
-Referal: https://www.terraform.io/docs/cli/commands/index.html
+# Referal:
+-  https://www.terraform.io/docs/cli/commands/index.html
