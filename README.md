@@ -1,5 +1,5 @@
 # The repository for practice purpose
-## Requirements
+## Prerequisites
 -  Setup and configure Azure CLI: https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/azure-get-started
 -  Setup Terraform CLI: https://learn.hashicorp.com/tutorials/terraform/install-cli
 ## Usage
