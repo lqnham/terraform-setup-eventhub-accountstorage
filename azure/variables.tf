@@ -1,6 +1,6 @@
 variable "subscription_id" {
   description = "tbd"
-  default     = "32496c5b-1147-452c-8469-3a11028f8946"
+  default     = "XXXXXX"
 }
 
 #azurerm_storage_account variable
